@@ -115,7 +115,7 @@
                     android:id="@+id/imageView28"
                     android:layout_width="69dp"
                     android:layout_height="69dp"
-                    android:background="#006eff"
+                    android:background="@drawable/man3_bo4"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
