@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        imageView14.setOnClickListener {
+        imageView9.setOnClickListener {
             val intent = Intent(this, ManHinh2::class.java)
             startActivity(intent)
         }

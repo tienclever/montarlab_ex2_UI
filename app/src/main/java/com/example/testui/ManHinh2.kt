@@ -11,7 +11,7 @@ class ManHinh2 : AppCompatActivity() {
         setContentView(R.layout.activity_man_hinh2)
 
 
-        imageView25.setOnClickListener {
+        btnToThree.setOnClickListener {
             val intent  = Intent(this, ManHinh3::class.java)
             startActivity(intent)
         }
