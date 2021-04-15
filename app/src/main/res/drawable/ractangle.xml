@@ -2,21 +2,19 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <layer-list>
-            <item android:top="2dp" android:left="2dp">
+            <item android:top="1dp" android:left="1dp">
                 <shape>
                     <solid android:color="#2F000000"/>
                     <corners android:radius="15dp"/>
                 </shape>
             </item>
-            <item android:bottom="2dp" android:right="2dp">
+            <item>
                 <shape>
                     <gradient
-                        android:centerColor="@color/colorbackground"
-                        android:centerX="0"
-                        android:centerY="1"
+                        android:angle="315"
                         android:endColor="#0262e9"
                         android:startColor="#0054ae"
-                        android:type="sweep" />
+                        android:type="linear" />
                     <corners android:radius="15dp" />
                     <padding android:top="16dp"/>
                     <padding android:left="8dp"/>
