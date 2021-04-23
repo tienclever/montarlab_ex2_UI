@@ -377,7 +377,7 @@
                     android:id="@+id/imageView15"
                     android:layout_width="0dp"
                     android:layout_height="2dp"
-                    android:layout_marginStart="19dp"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="107dp"
                     android:background="@drawable/line"
                     app:layout_constraintEnd_toEndOf="@+id/textView18"
