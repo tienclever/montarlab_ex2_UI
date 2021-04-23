@@ -14,6 +14,13 @@ class ManHinh2 : AppCompatActivity() {
         btnToThree.setOnClickListener {
             val intent  = Intent(this, ManHinh3::class.java)
             startActivity(intent)
+            finish()
+        }
+
+        imageView8.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

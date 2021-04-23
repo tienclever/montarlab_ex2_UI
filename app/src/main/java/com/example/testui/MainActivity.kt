@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         imageView9.setOnClickListener {
             val intent = Intent(this, ManHinh2::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
